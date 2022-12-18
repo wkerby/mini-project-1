@@ -1,32 +1,31 @@
 <!DOCTYPE html>
 <html lang = "en-US">
-    <head>
-        <meta charset = "UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel = "stylesheet" href = "./assets/css/mystyle.css">
-        <title>My Webpage</title>
-    </head>
+<head>
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "./assets/css/mystyle.css">
+    <title>My Webpage</title>
+</head>
 
-    <body>
-        <header>
-            <nav>
-                <ul>
-                    <li>GitHub</li> <!--make sure to use anchor tag to link-->
-                    <li>Portfolio</li> <!--make sure to use anchor tag to link-->
-                    <li>Contact</li> <!--make sure to use anchor tag to link-->
-                </ul>
-            </nav>
-        </header>
-   
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://github.com/wkerby">Github</a></li> <!--make sure to use anchor tag to link-->
+                <li>Portfolio</li> <!--make sure to use anchor tag to link-->
+                <li>Contact</li> <!--make sure to use anchor tag to link-->
+            </ul>
+        </nav>
+    </header>
+
+
+<main>
+    <h1><strong>My New Website</strong></h1>
+    <img src = "./assets/images/google_profile.PNG" alt = "My Headshot"> <!--not going to use the figure element as in the solution-->
+    <p>Soon, this site will have real filler text! Stay tuned.</p>
 
     <section>
-        <h1><strong>My New Website</strong></h1>
-        <img src = "./assets/images/google_profile.PNG" alt = "My Headshot">
-        <p>Soon, this site will have real filler text! Stay tuned.</p>
-    <section>
-    
-    <section>
-        <h2>Contact me</h2>
+        <h2 class = "text-center">Contact me</h2>
         <form>
             <ul>
                 <li>
@@ -37,12 +36,17 @@
                     <label for="email">Email:</label>
                     <input type="text" id="email" name="user-email">
                 </li>
+            </ul>
+            <div>
+                <button type="submit">SEND</button>
+            </div>
         </form>
     </section>
+</main>
 
-    <footer>
-        @This is my copyright message!
-    </footer>
-    </body>
+<footer class = "text-center">
+    @This is my copyright message!
+</footer>
+</body>
 
 </html>
