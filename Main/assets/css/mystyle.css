@@ -6,7 +6,11 @@ header {
     background:#124679;
     height:100px;
     width:fit-content;
-    position:fixed;
+    /* position:fixed; */
     padding-bottom: 10px gray;
+    display:inline;
+}
+
+li {
     display:inline;
 }
