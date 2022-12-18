@@ -74,7 +74,7 @@ section {
     background-color:#d7de4e;
 }
 
-form { /*make sure to center the form on the page*/
+form { /*make sure to center the form on the page. This will help with user experience */
     margin: 0 auto;
     width: 500px;
     padding: 10px;
